@@ -265,7 +265,7 @@ public class JSONArrayTest extends TestCase {
 		assertEquals("null", JSONArray.toJSONString((Object[])null));
 		assertEquals("[]", JSONArray.toJSONString(new Object[0]));
 		assertEquals("[\"Hello\"]", JSONArray.toJSONString(new Object[] { "Hello" }));
-		assertEquals("[\"Hello\",12,[1,2,3]]", JSONArray.toJSONString(new Object[] { "hello", Integer.valueOf(12), new int[] { 1, 2, 3 } }));
+		assertEquals("[\"Hello\",12,[1,2,3]]", JSONArray.toJSONString(new Object[] { "Hello", Integer.valueOf(12), new int[] { 1, 2, 3 } }));
 		
 		StringWriter writer;
 		
