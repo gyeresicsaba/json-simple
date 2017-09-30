@@ -105,7 +105,7 @@ public class Test extends TestCase{
 			case ParseException.ERROR_UNEXPECTED_EXCEPTION:
 				((Exception)pe.getUnexpectedObject()).printStackTrace();
 				break;
-			}
+			} default: break;
 		}
 		
 		s = "{\"first\": 123, \"second\": [4, 5, 6], \"third\": 789}";
